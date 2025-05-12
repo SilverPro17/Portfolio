@@ -47,6 +47,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link} 
             />
           );
         })}
